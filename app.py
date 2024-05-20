@@ -164,6 +164,10 @@ while(True):
         
 
 
+db.close()
+
+
+
   
         
 
