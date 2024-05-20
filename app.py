@@ -87,7 +87,8 @@ def View_Employees(Table_Name,cursor):
         print(f"| {emp_id:<4} | {name:<14} | {age:<3} | {position:<8} | {salary:<6} | {performance:<11} |")
         print("+------+----------------+-----+----------+--------+-------------+")
 
-    """ print("+--------+---------------+--------+-----------+---------+-------------+")
+    """ 
+    print("+--------+---------------+--------+-----------+---------+-------------+")
     print("| ID     | Name          | Age    | Position  | Salary  | Performance |")
     print("+--------+---------------+--------+-----------+---------+-------------+")
     
@@ -157,6 +158,9 @@ while(True):
         table_name = input("Enter Table name : ")
 
         View_Employees(Table_Name=table_name,cursor=db.cursor())
+
+    elif option == 7:
+        quit()
         
 
 
