@@ -101,6 +101,8 @@ def View_Employees(Table_Name,cursor):
 while(True):
     print(
         """
+    Employee Management System
+
         1. create table 
         2. Add Employee
         3. Employee Performance Update
@@ -161,7 +163,7 @@ while(True):
 
     elif option == 7:
         quit()
-        
+
 
 
 db.close()
